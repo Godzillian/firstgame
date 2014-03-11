@@ -23,6 +23,10 @@ public class Application extends Controller {
         return ok(phaserjs.render());
     }
 
+    public static Result phasertimer() {
+        return ok(phasertimer.render());
+    }
+
 
 
 }
